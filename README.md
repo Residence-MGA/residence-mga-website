@@ -11,6 +11,38 @@ Currently, two official plugins are available:
 
 The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
+## Installation and running
+
+1. Install dependencies:
+
+```bash
+bun install
+```
+
+2. Start the development server:
+
+```bash
+bun run dev
+```
+
+3. Open your browser at:
+
+```text
+http://localhost:5173
+```
+
+### Useful scripts
+
+- `bun run dev` : starts the development server
+- `bun run build` : builds the production version
+- `bun run lint` : runs ESLint
+- `bun run preview` : previews the production build
+
+## Requirements
+
+- Node.js or Bun installed
+- Bun installed if you are using Bun as your package manager
+
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
