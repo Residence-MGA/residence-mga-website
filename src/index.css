@@ -11,8 +11,8 @@
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --sans: 'Montserrat', system-ui, sans-serif;
+  --heading: 'Playfair Display', system-ui, serif;
   --mono: ui-monospace, Consolas, monospace;
 
   font: 18px/145% var(--sans);
@@ -108,4 +108,49 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
+}
+
+/* Lato */
+@font-face {
+  font-family: 'Lato';
+  src: url('/src/assets/fonts/Lato/Lato-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/src/assets/fonts/Lato/Lato-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+/* Montserrat */
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/src/assets/fonts/Montserrat/static/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/src/assets/fonts/Montserrat/static/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/src/assets/fonts/Montserrat/static/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+/* Playfair Display */
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('/src/assets/fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('/src/assets/fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf') format('truetype');
+  font-weight: 700;
 }
