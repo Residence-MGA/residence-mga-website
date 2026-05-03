@@ -1,7 +1,11 @@
+import { HeaderStyles } from "./Header.styled";
+
 const Header = () => {
   return (
-    <header>
-      <h1>La Résidence MGA</h1>
+    <HeaderStyles>
+      <div>
+        <h1>La Résidence MGA</h1>
+      </div>
       <nav>
         <a href="/">Accueil</a>
         <a href="/">L'hôtel</a>
@@ -10,7 +14,7 @@ const Header = () => {
         <a href="/">La boutique</a>
         <a href="/">Contact</a>
       </nav>
-    </header>
+    </HeaderStyles>
   );
 };
 
