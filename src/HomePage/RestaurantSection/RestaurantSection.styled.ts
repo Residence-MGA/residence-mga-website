@@ -1,21 +1,6 @@
-import styled from "styled-components";
-
-export const RestaurantSectionContainer = styled.div`
-  display: flex;
-  flex-direction: row;
-`;
-
-export const RestaurantTextContainer = styled.div`
-  text-align: left;
-  position: relative;
-  flex: 1;
-`;
-
-export const RestaurantImageContainer = styled.div`
-  position: relative;
-  flex: 1;
-`;
-
-export const RestaurantSectionImage = styled.img`
-  width: 100%;
-`;
+export {
+  FeatureSectionContainer as RestaurantSectionContainer,
+  FeatureTextContainer as RestaurantTextContainer,
+  FeatureImageContainer as RestaurantImageContainer,
+  FeatureSectionImage as RestaurantSectionImage,
+} from "../FeatureSection.styled";
