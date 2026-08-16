@@ -10,7 +10,6 @@ import Link from "../../components/Link";
 const HotelSection = () => {
   return (
     <section>
-      <h2>Votre expérience à la Résidence MGA</h2>
       <HotelSectionContainer>
         <HotelImageContainer>
           <HotelSectionImage src={hotelImage} alt="Décoration des chambres" />
