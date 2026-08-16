@@ -35,3 +35,62 @@ export const FooterTextStyles = styled.p`
   color: rgba(255, 255, 255, 0.5);
   letter-spacing: 0.1rem;
 `;
+
+export const ContactSectionStyles = styled.div`
+  margin-top: var(--spacing-xl);
+  padding-top: var(--spacing-md);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+`;
+
+export const LocationStyles = styled.p`
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: var(--spacing-md);
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+`;
+
+export const ContactDetailsStyles = styled.div`
+  margin: var(--spacing-md) 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+`;
+
+export const ContactDetailStyles = styled.p`
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+  
+  a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: rgba(255, 255, 255, 1);
+    }
+  }
+`;
+
+export const SocialLinksStyles = styled.div`
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-md);
+`;
+
+export const SocialLinkStyles = styled.a`
+  color: var(--accent-color);
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: color 0.3s ease, transform 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+
+  &:hover {
+    color: rgba(255, 255, 255, 1);
+    transform: translateY(-2px);
+  }
+`;
