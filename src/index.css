@@ -59,10 +59,10 @@
 }
 
 #root {
-  width: 1126px;
   max-width: 100%;
   margin: 0 auto;
-  text-align: center;
+  padding-left: 4rem;
+  padding-right: 4rem;
   min-height: 100svh;
   display: flex;
   flex-direction: column;
